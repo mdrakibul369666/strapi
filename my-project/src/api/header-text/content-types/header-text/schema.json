@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "header_texts",
+  "info": {
+    "singularName": "header-text",
+    "pluralName": "header-texts",
+    "displayName": "Header Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Header": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Sojib Vai Project",
+      "maxLength": 200
+    }
+  }
+}
